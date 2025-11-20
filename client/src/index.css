@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+
+:root {
+  --color-sky-blue-light-50: #ecf7f8;
+  --color-sky-blue-light-100: #daeef1;
+  --color-sky-blue-light-200: #b5dde3;
+  --color-sky-blue-light-300: #8fccd6;
+  --color-sky-blue-light-400: #6abbc8;
+  --color-sky-blue-light-500: #45abba;
+  --color-sky-blue-light-600: #378895;
+  --color-sky-blue-light-700: #296670;
+  --color-sky-blue-light-800: #1c444a;
+  --color-sky-blue-light-900: #0e2225;
+  --color-sky-blue-light-950: #0a181a;
+
+  --color-old-rose-50: #f8edee;
+  --color-old-rose-100: #f1dadd;
+  --color-old-rose-200: #e3b5ba;
+  --color-old-rose-300: #d59098;
+  --color-old-rose-400: #c76b76;
+  --color-old-rose-500: #b94654;
+  --color-old-rose-600: #943843;
+  --color-old-rose-700: #6f2a32;
+  --color-old-rose-800: #4a1c21;
+  --color-old-rose-900: #250e11;
+  --color-old-rose-950: #1a0a0c;
+
+  --color-lavender-purple-50: #f1edf8;
+  --color-lavender-purple-100: #e3dbf0;
+  --color-lavender-purple-200: #c7b6e2;
+  --color-lavender-purple-300: #ab92d3;
+  --color-lavender-purple-400: #8f6dc5;
+  --color-lavender-purple-500: #7349b6;
+  --color-lavender-purple-600: #5c3a92;
+  --color-lavender-purple-700: #452c6d;
+  --color-lavender-purple-800: #2e1d49;
+  --color-lavender-purple-900: #170f24;
+  --color-lavender-purple-950: #100a1a;
+
+  --color-velvet-orchid-50: #f3edf7;
+  --color-velvet-orchid-100: #e7dcef;
+  --color-velvet-orchid-200: #d0b9df;
+  --color-velvet-orchid-300: #b895d0;
+  --color-velvet-orchid-400: #a172c0;
+  --color-velvet-orchid-500: #894fb0;
+  --color-velvet-orchid-600: #6e3f8d;
+  --color-velvet-orchid-700: #522f6a;
+  --color-velvet-orchid-800: #372046;
+  --color-velvet-orchid-900: #1b1023;
+  --color-velvet-orchid-950: #130b19;
+
+  --color-dusty-lavender-50: #f5eff4;
+  --color-dusty-lavender-100: #ecdfe8;
+  --color-dusty-lavender-200: #d9bfd2;
+  --color-dusty-lavender-300: #c69fbb;
+  --color-dusty-lavender-400: #b380a5;
+  --color-dusty-lavender-500: #9f608e;
+  --color-dusty-lavender-600: #804d72;
+  --color-dusty-lavender-700: #603955;
+  --color-dusty-lavender-800: #402639;
+  --color-dusty-lavender-900: #20131c;
+  --color-dusty-lavender-950: #160d14;
+}
+
