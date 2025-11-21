@@ -5,6 +5,6 @@ import (
 	"net/http"
 )
 
-func GetAllUsers(w http.ResponseWriter, r *http.Request) {
+func GetUsers(w http.ResponseWriter, r *http.Request) {
 	log.Fatalf("All users", w)
 }
