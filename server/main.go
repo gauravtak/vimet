@@ -4,12 +4,11 @@ import (
 	"fmt"
 	"net/http"
 	"server/db"
-	"server/routes"
 )
 
 func main() {
 	mux := http.NewServeMux()
-	routes.RegisterUserRoutes(mux)
+	RegisterUserRoutes(mux)
 	db.Connect()
 	defer db.Close()
 	port := ":4000"
