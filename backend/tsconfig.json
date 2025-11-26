@@ -3,10 +3,11 @@
     "lib": ["ESNext", "dom"],
     "outDir": "./dist",
     "removeComments": true,
-    "target": "ES6",
+    "target": "ESNEXT",
     "baseUrl": "./",
     "esModuleInterop": true,
     "moduleResolution": "node",
+    "module": "esnext",
     "paths": {},
     "sourceMap": true,
     "sourceRoot": "./src",
@@ -21,6 +22,6 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true
   },
-  "include": ["./**/*.ts"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules/**/*"]
 }

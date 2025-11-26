@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "tsc ./src/index.ts",
+    "build": "tsc",
     "start": "npm run build && node ./dist/index.js",
     "dev": "nodemon ./src/index.ts",
-    "typeorm": "ts-node ./node_modules/typeorm/cli.js"
+    "migration:run": "node --loader ts-node/esm ./node_modules/typeorm/cli.js migration:run -d ./src/data-source.ts",
+    "migration:generate": "node --loader ts-node/esm ./node_modules/typeorm/cli.js migration:generate ./src/migrations -d ./src/data-source.ts"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +29,6 @@
     "express": "^5.1.0",
     "pg": "^8.16.3",
     "reflect-metadata": "^0.2.2",
-    "typeorm": "^0.3.27"
+    "typeorm": "0.3.27"
   }
 }
