@@ -1,27 +1,28 @@
 {
-  "compilerOptions": {
-    "lib": ["ESNext", "dom"],
-    "outDir": "./dist",
-    "removeComments": true,
-    "target": "ESNEXT",
-    "baseUrl": "./",
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "module": "esnext",
-    "paths": {},
-    "sourceMap": true,
-    "sourceRoot": "./src",
-    "alwaysStrict": true,
-    "allowUnreachableCode": false,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "noImplicitReturns": true,
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules/**/*"]
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "target": "esnext",
+        "allowJs": true,
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "moduleDetection": "force",
+        "isolatedModules": true,
+        // "verbatimModuleSyntax": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "ts-node": {
+        "esm": true,
+        "experimentalSpecifierResolution": "node"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
 }
