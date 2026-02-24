@@ -1,4 +1,4 @@
-import { SignupForm } from "../components/signup/forms/SignupForm";
+import { SignupForm } from "../components/signup/SignupForm";
 import { useNavigate } from "react-router";
 import signupImage from "../assets/signup.jpg";
 
